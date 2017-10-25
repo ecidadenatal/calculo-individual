@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <plugin name="calculo-individual" label="Calculo Individual" plugin-version="1.0.0" ecidade-version="2.3.39" id-modulo="952">
+    <files>
+      <file name="pes4_monocalculo001.php" path="/pes4_monocalculo001.php"/>
+      <file name="pes4_monocalculo002.php" path="/pes4_monocalculo002.php"/>
+      <file name="pes4_monocalculo003.php" path="/pes4_monocalculo003.php"/>
+      <file name="CalculoFolha.classe.js"  path="/scripts/classes/pessoal/CalculoFolha.classe.js"/>
+      <file name="CalculoFolha.worker.js"  path="/scripts/workers/pessoal/CalculoFolha.worker.js"/>
+    </files>
+    <menus>
+      <menu type="4">
+        <item name="Calculo Financeiro(Beta)" file="pes4_monocalculo001.php" liberado-cliente="true"/>
+      </menu>
+    </menus>
+  </plugin>
+</manifest>
